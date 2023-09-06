@@ -16,22 +16,21 @@ const Create = () => {
         Create a New Note
       </Typography>
       <Button
-      onClick={()=>console.log("You Clicked Me")}
-      type="submit"
-      color="secondary"
-      variant="contained"
+        onClick={()=>console.log("You Clicked Me")}
+        type="submit"
+        color="secondary"
+        variant="contained"
       >
         Submit
       </Button>
-      {/* <Button type="submit" variant="contained" color="success" size="large" disableElevation>Submit</Button>
-      <Button type="submit" variant="outlined">Submit</Button>
+      {/* <Button type="submit" variant="contained" color="success" size="small" disableElevation>Submit</Button>
+      <Button type="submit" variant="outlined" color="error" size="large">Submit</Button>
       
-      <ButtonGroup color="secondary" variant="contained" disableElevation>
+      <ButtonGroup color="secondary" variant="contained">
         <Button>One</Button>
         <Button>Two</Button>
         <Button>Three</Button>
       </ButtonGroup> */}
-
     </Container>
   )
 }
