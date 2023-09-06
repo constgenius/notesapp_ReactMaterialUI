@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 3 - Buttons
+# React Material UI Tutorial | 4 - Icons
 
-Welcome to the third part of the React Material UI Tutorial - Buttons! In this section, we will explore how to create and customize buttons using Material-UI in your React application. Buttons are fundamental interactive components in user interfaces, and Material-UI offers a rich set of pre-designed button styles and variants.
+Welcome to the fourth part of the React Material UI Tutorial - Icons! In this section, we will explore how to use icons in your React application with Material-UI. Icons are essential for conveying information and actions in a visually appealing and intuitive way, and Material-UI provides a collection of popular icons to enhance your user interface.
 
-![Tutorial 3](public/MaterialUI3.png)
+![Tutorial 4](public/MaterialUI4.png)
