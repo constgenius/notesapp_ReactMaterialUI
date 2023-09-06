@@ -3,6 +3,9 @@ import { Typography } from "@mui/material";
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Container from '@mui/material/Container';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
+import SendIcon from '@mui/icons-material/Send';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const Create = () => {
   return (
@@ -20,17 +23,21 @@ const Create = () => {
         type="submit"
         color="secondary"
         variant="contained"
+        // startIcon={<SendIcon/>}
+        endIcon={<KeyboardArrowRightIcon/>}
       >
         Submit
       </Button>
-      {/* <Button type="submit" variant="contained" color="success" size="small" disableElevation>Submit</Button>
-      <Button type="submit" variant="outlined" color="error" size="large">Submit</Button>
       
-      <ButtonGroup color="secondary" variant="contained">
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
-      </ButtonGroup> */}
+      {/* Icons */}
+      <br/>
+      <AcUnitIcon/>
+      <AcUnitIcon color="secondary" fontSize="large"/>
+      <AcUnitIcon color="secondary" fontSize="small"/>
+      <AcUnitIcon color="action" fontSize="large"/>
+      <AcUnitIcon color="error" fontSize="large"/>
+      <AcUnitIcon color="disabled" fontSize="large"/>
+
     </Container>
   )
 }
