@@ -15,25 +15,23 @@ const Create = () => {
       >
         Create a New Note
       </Typography>
-
       <Button
-        onClick={() => console.log('you clicked me')}
-        type="submit" 
-        color="secondary" 
-        variant="contained">
+      onClick={()=>console.log("You Clicked Me")}
+      type="submit"
+      color="secondary"
+      variant="contained"
+      >
         Submit
       </Button>
-
-      <br />
-
-      <Button type="submit" color="secondary" variant="outlined">Submit</Button>
-      <Button type="submit">Submit</Button>
+      {/* <Button type="submit" variant="contained" color="success" size="large" disableElevation>Submit</Button>
+      <Button type="submit" variant="outlined">Submit</Button>
       
       <ButtonGroup color="secondary" variant="contained" disableElevation>
         <Button>One</Button>
         <Button>Two</Button>
         <Button>Three</Button>
-      </ButtonGroup>
+      </ButtonGroup> */}
+
     </Container>
   )
 }
