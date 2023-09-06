@@ -1,9 +1,12 @@
 import React from "react"
-import { Typography } from "@mui/material"
+import { Typography } from "@mui/material";
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Container from '@mui/material/Container';
 
 const Create = () => {
   return (
-    <div>
+    <Container>
       <Typography
         variant="h6" 
         color="textSecondary"
@@ -13,20 +16,25 @@ const Create = () => {
         Create a New Note
       </Typography>
 
-      {/* <Typography
-        variant="h1" 
-        color="primary"
-        align="center"
-      >
-        Create a New Note
-      </Typography>
-      <Typography
-        noWrap
-        color="secondary"
-      >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque molestiae magnam voluptate reiciendis fuga totam facere officia, animi sint laboriosam dolorum voluptas cupiditate explicabo dolore veritatis recusandae rem inventore sunt.
-      </Typography> */}
-    </div>
+      <Button
+        onClick={() => console.log('you clicked me')}
+        type="submit" 
+        color="secondary" 
+        variant="contained">
+        Submit
+      </Button>
+
+      <br />
+
+      <Button type="submit" color="secondary" variant="outlined">Submit</Button>
+      <Button type="submit">Submit</Button>
+      
+      <ButtonGroup color="secondary" variant="contained" disableElevation>
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
+    </Container>
   )
 }
 

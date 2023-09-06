@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 2 - Typography
+# React Material UI Tutorial | 3 - Buttons
 
-Welcome to the second part of the React Material UI Tutorial - Typography! In this section, we'll explore how to use Typography in Material-UI to style text elements within your React application. Typography is an essential aspect of user interface design, and Material-UI provides a comprehensive set of components and styles for creating beautiful and consistent typography.
+Welcome to the third part of the React Material UI Tutorial - Buttons! In this section, we will explore how to create and customize buttons using Material-UI in your React application. Buttons are fundamental interactive components in user interfaces, and Material-UI offers a rich set of pre-designed button styles and variants.
 
-![Tutorial 2](public/MaterialUI2.png)
+![Tutorial 3](public/MaterialUI3.png)
