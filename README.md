@@ -1,8 +1,5 @@
-# React + Vite
+# React Material UI Tutorial | 1- Intro & Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the React Material UI Tutorial - Intro & Setup! This tutorial will help you set up a basic React project with Material-UI, a popular UI library for React applications. Material-UI provides a set of pre-designed, customizable components that follow Google's Material Design guidelines, making it easier to create modern and visually appealing user interfaces.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Tutorial 1](public/MaterialUI1.png)
