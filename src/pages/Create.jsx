@@ -1,16 +1,30 @@
 import React from "react"
 import { Typography } from "@mui/material";
 import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
 import Container from '@mui/material/Container';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
-import SendIcon from '@mui/icons-material/Send';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles({
+  btn:{
+    fontSize:60,
+    backgroundColor: "voilet",
+    "&:hover":{
+      background:'blue'
+    }
+  },
+  title:{
+    textDecoration: 'underline',
+    marginBottom: 20
+  }
+})
 
 const Create = () => {
+  const classes = useStyles();
   return (
     <Container>
       <Typography
+        className={classes.title}
         variant="h6" 
         color="textSecondary"
         component="h2"
@@ -19,24 +33,16 @@ const Create = () => {
         Create a New Note
       </Typography>
       <Button
+        className={classes.btn}
         onClick={()=>console.log("You Clicked Me")}
         type="submit"
         color="secondary"
         variant="contained"
-        // startIcon={<SendIcon/>}
         endIcon={<KeyboardArrowRightIcon/>}
       >
         Submit
       </Button>
       
-      {/* Icons */}
-      <br/>
-      <AcUnitIcon/>
-      <AcUnitIcon color="secondary" fontSize="large"/>
-      <AcUnitIcon color="secondary" fontSize="small"/>
-      <AcUnitIcon color="action" fontSize="large"/>
-      <AcUnitIcon color="error" fontSize="large"/>
-      <AcUnitIcon color="disabled" fontSize="large"/>
 
     </Container>
   )
