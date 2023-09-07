@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 6 - Custom Themes
+# React Material UI Tutorial | 7 - Text Fields
 
-Welcome to the sixth part of the React Material UI Tutorial - Custom Themes! In this section, we will explore how to create and use custom themes in your React application with Material-UI. Themes play a crucial role in defining the visual style and behavior of your application, and Material-UI offers a flexible theming system to customize your app's look and feel.
+Welcome to the seventh part of the React Material UI Tutorial - Text Fields! In this section, we will explore how to create and customize text fields in your React application using Material-UI. Text fields are essential for user input, and Material-UI provides a set of well-designed and customizable components for capturing user text input.
 
-![Tutorial 6](public/MaterialUI6.png)
+![Tutorial 7](public/MaterialUI7.png)
