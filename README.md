@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 9 - Using JSON Server
+# React Material UI Tutorial | 10 - Grid
 
-Welcome to the ninth part of the React Material UI Tutorial - Using JSON Server! In this section, we will explore how to set up and use JSON Server as a mock API for your React application. JSON Server allows you to quickly create a mock backend, making it easier to develop and test your frontend components without a real backend server.
+Welcome to the tenth part of the React Material UI Tutorial - Grid! In this section, we will explore how to create responsive grid layouts in your React application using Material-UI's Grid component. Grid layouts are essential for organizing and arranging content in a structured and visually appealing manner.
 
-![Tutorial 9](public/MaterialUI9.png)
+![Tutorial 10](public/MaterialUI10.png)
