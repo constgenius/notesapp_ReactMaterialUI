@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 11 - Cards
+# React Material UI Tutorial | 12 - Layout Component
 
-Welcome to the eleventh part of the React Material UI Tutorial - Cards! In this section, we will explore how to create and customize cards in your React application using Material-UI. Cards are a versatile UI component for displaying information, images, and content in an organized and visually appealing manner.
+Welcome to the twelfth part of the React Material UI Tutorial - Layout Component! In this section, we will explore how to create a reusable layout component for your React application using Material-UI. A layout component is responsible for defining the overall structure and organization of your application, including headers, sidebars, and content areas.
 
-![Tutorial 11](public/MaterialUI11.png)
+![Tutorial 12](public/MaterialUI12.png)
