@@ -1,5 +1,5 @@
 # React Material UI Tutorial | 8 - Radio Buttons
 
-Welcome to the seventh part of the React Material UI Tutorial - Text Fields! In this section, we will explore how to create and customize text fields in your React application using Material-UI. Text fields are essential for user input, and Material-UI provides a set of well-designed and customizable components for capturing user text input.
+Welcome to the eighth part of the React Material UI Tutorial - Radio Buttons! In this section, we will explore how to create and customize radio buttons in your React application using Material-UI. Radio buttons are used when users need to select a single option from a list, and Material-UI provides components that make it easy to implement this UI pattern.
 
 ![Tutorial 8](public/MaterialUI8.png)
