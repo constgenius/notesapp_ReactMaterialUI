@@ -5,29 +5,27 @@ import Container from '@mui/material/Container';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import TextField from '@mui/material/TextField';
 
-
-
 const Create = () => {
   const [title, setTitle] = useState("");
   const [details, setDetails] = useState("");
   const [titleError, setTitleError] = useState(false);
   const [detailsError, setDetailsError] = useState(false);
 
-  const handleSubmit = (e) =>{
+  const handleSubmit = (e) => {
     e.preventDefault();
     setTitleError(false)
     setDetailsError(false)
 
-    if(title==""){
+    if (title == "") {
       setTitleError(true)
     }
 
-    if(details==""){
+    if (details == "") {
       setDetailsError(true);
     }
 
-    if(title && details){
-      console.log(title,details);
+    if (title && details) {
+      console.log(title, details);
     }
   }
   return (
