@@ -6,17 +6,6 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles({
-  btn:{
-    fontSize:60,
-    backgroundColor: "voilet",
-    "&:hover":{
-      background:'blue'
-    }
-  },
-  title:{
-    textDecoration: 'underline',
-    marginBottom: 20
-  }
 })
 
 const Create = () => {
@@ -24,7 +13,6 @@ const Create = () => {
   return (
     <Container>
       <Typography
-        className={classes.title}
         variant="h6" 
         color="textSecondary"
         component="h2"
@@ -33,7 +21,6 @@ const Create = () => {
         Create a New Note
       </Typography>
       <Button
-        className={classes.btn}
         onClick={()=>console.log("You Clicked Me")}
         type="submit"
         color="secondary"
