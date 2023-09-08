@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 12 - Layout Component
+# React Material UI Tutorial | 13 - Navigation Drawers or sidebars
 
-Welcome to the twelfth part of the React Material UI Tutorial - Layout Component! In this section, we will explore how to create a reusable layout component for your React application using Material-UI. A layout component is responsible for defining the overall structure and organization of your application, including headers, sidebars, and content areas.
+Welcome to the thirteenth part of the React Material UI Tutorial - Navigation Drawers or Sidebars! In this section, we will explore how to create and customize navigation drawers or sidebars in your React application using Material-UI. Navigation drawers or sidebars are essential UI components for providing navigation links, menus, or other interactive elements in your web application.
 
-![Tutorial 12](public/MaterialUI12.png)
+![Tutorial 13](public/MaterialUI13.png)
