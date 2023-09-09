@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 14 - Lists & List Items
+# React Material UI Tutorial | 15 - More on sx Prop
 
-Welcome to the fourteenth part of the React Material UI Tutorial - Lists & List Items! In this section, we will explore how to create and customize lists and list items in your React application using Material-UI. Lists are a fundamental UI component for displaying information, links, or items in an organized and visually appealing manner.
+Welcome to the fifteenth part of the React Material UI Tutorial - More on sx Prop! In this section, we will dive deeper into the sx prop, a powerful feature provided by Material-UI for customizing component styles directly in your JSX code. Understanding and utilizing sx can greatly enhance your ability to create custom designs and layouts with ease.
 
-![Tutorial 14](public/MaterialUI14.png)
+![Tutorial 15](public/MaterialUI15.png)
