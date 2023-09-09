@@ -21,27 +21,26 @@ const NoteCard = ({ note, handleDelete }) => {
   }
 
   return (
-    <div>
-      <Card>
-        <CardHeader
-          action={
-            <IconButton aria-label="settings" onClick={() => handleDelete(note.id)}>
-              <DeleteOutlined />
-            </IconButton>
-          }
-          avatar={
-            <Avatar sx={{ backgroundColor: getAvatarBackgroundColor() }}>{note.category[0].toUpperCase()}</Avatar>
-          }
-          title={note.title}
-          subheader={note.category}
-        />
-        <CardContent>
-          <Typography variant='body2' color="textSecondary">
-            {note.details}
-          </Typography>
-        </CardContent>
-      </Card>
-    </div >
+
+    <Card>
+      <CardHeader
+        action={
+          <IconButton aria-label="settings" onClick={() => handleDelete(note.id)}>
+            <DeleteOutlined />
+          </IconButton>
+        }
+        avatar={
+          <Avatar sx={{ backgroundColor: getAvatarBackgroundColor() }}>{note.category[0].toUpperCase()}</Avatar>
+        }
+        title={note.title}
+        subheader={note.category}
+      />
+      <CardContent>
+        <Typography variant='body2' color="textSecondary">
+          {note.details}
+        </Typography>
+      </CardContent>
+    </Card>
   )
 }
 
