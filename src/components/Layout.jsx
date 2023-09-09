@@ -9,6 +9,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { SubjectOutlined, AddCircleOutlineOutlined } from '@mui/icons-material';
 import { useNavigate, useLocation } from 'react-router-dom';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import { useTheme } from '@mui/styles';
 
 const drawerWidth = 240;
 const menuItems = [
@@ -28,9 +31,17 @@ const menuItems = [
 const Layout = ({ children }) => {
   const navigate = useNavigate();
   const location = useLocation();
+  const theme = useTheme();
   return (
     <Box sx={{ display: "flex" }}>
       {/* app bar */}
+      <AppBar position='fixed' elevation={0} sx={{ width: `calc(100% - ${drawerWidth}px)`, marginLeft: `${drawerWidth}` }}>
+        <Toolbar>
+          <Typography sx={{ flexGrow: 1 }}>Today is the Best Day</Typography>
+          <Typography>const</Typography>
+
+        </Toolbar>
+      </AppBar>
 
       {/* Side Bar */}
       <Drawer
@@ -45,7 +56,7 @@ const Layout = ({ children }) => {
         variant="permanent"
         anchor="left"
       >
-        <Typography variant='h5' sx={{ p: 3, color: "primary.main" }}>Genius Notes</Typography>
+        <Typography variant='h5' sx={{ p: 2, color: "primary.main" }}>Genius Notes</Typography>
 
 
         {/* Lists and List Items */}
@@ -66,7 +77,7 @@ const Layout = ({ children }) => {
 
       </Drawer>
 
-      <Box sx={{ width: "100%", backgroundColor: "#f9f9f9" }}>
+      <Box sx={{ width: "100%", backgroundColor: "#f9f9f9", flexGrow: 1, marginTop: `${theme.mixins.toolbar.minHeight}px`, padding: 3 }}>
         {children}
       </Box>
 
