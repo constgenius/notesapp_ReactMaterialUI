@@ -8,9 +8,7 @@ import { IconButton, Typography } from '@mui/material';
 const NoteCard = ({ note, handleDelete }) => {
   return (
     <div>
-      <Card sx={{
-        border: note.category === 'work' ? '1px solid red' : 'none',
-      }}>
+      <Card sx={{ border: note.category === "work" ? "1px solid red" : "none" }}>
         <CardHeader
           action={
             <IconButton aria-label="settings" onClick={() => handleDelete(note.id)}>
@@ -26,7 +24,7 @@ const NoteCard = ({ note, handleDelete }) => {
           </Typography>
         </CardContent>
       </Card>
-    </div>
+    </div >
   )
 }
 

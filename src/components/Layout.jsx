@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
         variant="permanent"
         anchor="left"
       >
-        <Typography variant='h5' sx={{ p: 3 }}>Genius Notes</Typography>
+        <Typography variant='h5' sx={{ p: 3, color: "primary.main" }}>Genius Notes</Typography>
 
 
         {/* Lists and List Items */}
