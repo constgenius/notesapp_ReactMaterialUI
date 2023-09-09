@@ -55,7 +55,6 @@ const Layout = ({ children }) => {
               key={item.text}
               disablePadding
               onClick={() => navigate(item.path)}
-              // className={location.pathname == item.path ? classes.active : null}
               sx={{
                 ...(location.pathname === item.path ? { backgroundColor: "#f9f9f9" } : null),
               }}
