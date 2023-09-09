@@ -1,19 +1,37 @@
 import React from 'react'
+import Drawer from '@mui/material/Drawer';
+import { Typography } from '@mui/material';
+import Box from '@mui/material';
+
+const drawerWidth=240;
 
 const Layout = ({children}) => {
   return (
-    <div>
+    <Box sx={{display:"flex"}}>
         {/* app bar */}
-        <div>App Bar</div>
 
         {/* Side Bar */}
-        <div>Side bar</div>
+        <Drawer
+        sx={{
+          width: drawerWidth,
+          flexShrink: 0,
+          '& .MuiDrawer-paper': {
+            width: drawerWidth,
+            boxSizing: 'border-box',
+          },
+        }}
+        variant="persistent"
+        anchor="left"
+        open={open}
+      >
+        <Typography variant='h5'>Genius Notes</Typography>
+      </Drawer>
 
-        <div>
+        <Box sx={{width:"100%",backgroundColor:"#f9f9f9"}}>
             {children}
-        </div>
+        </Box>
     
-    </div>
+    </Box>
   )
 }
 
