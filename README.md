@@ -1,5 +1,5 @@
-# React Material UI Tutorial | 15 - More on sx Prop
+# React Material UI Tutorial | 16 - App Bar
 
-Welcome to the fifteenth part of the React Material UI Tutorial - More on sx Prop! In this section, we will dive deeper into the sx prop, a powerful feature provided by Material-UI for customizing component styles directly in your JSX code. Understanding and utilizing sx can greatly enhance your ability to create custom designs and layouts with ease.
+Welcome to the sixteenth part of the React Material UI Tutorial - App Bar! In this section, we will explore how to create and customize an app bar in your React application using Material-UI. The app bar is a crucial component for providing navigation, branding, and actions in your web application.
 
-![Tutorial 15](public/MaterialUI15.png)
+![Tutorial 16](public/MaterialUI16.png)
