@@ -1,7 +1,6 @@
 import React from 'react'
 import Drawer from '@mui/material/Drawer';
-import { Typography } from '@mui/material';
-import Box from '@mui/material';
+import { Typography,Box } from '@mui/material';
 
 const drawerWidth=240;
 
@@ -20,9 +19,8 @@ const Layout = ({children}) => {
             boxSizing: 'border-box',
           },
         }}
-        variant="persistent"
+        variant="permanent"
         anchor="left"
-        open={open}
       >
         <Typography variant='h5'>Genius Notes</Typography>
       </Drawer>
