@@ -12,6 +12,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import { useTheme } from '@mui/styles';
+import format from 'date-fns/format';
 
 const drawerWidth = 240;
 const menuItems = [
@@ -37,7 +38,7 @@ const Layout = ({ children }) => {
       {/* app bar */}
       <AppBar position='fixed' elevation={0} sx={{ width: `calc(100% - ${drawerWidth}px)`, marginLeft: `${drawerWidth}` }}>
         <Toolbar>
-          <Typography sx={{ flexGrow: 1 }}>Today is the Best Day</Typography>
+          <Typography sx={{ flexGrow: 1 }}>Today is the {format(new Date(), 'd MMMM Y')}</Typography>
           <Typography>const</Typography>
 
         </Toolbar>
