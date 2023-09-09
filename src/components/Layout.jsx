@@ -13,6 +13,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import { useTheme } from '@mui/styles';
 import format from 'date-fns/format';
+import Avatar from '@mui/material/Avatar';
 
 const drawerWidth = 240;
 const menuItems = [
@@ -40,7 +41,7 @@ const Layout = ({ children }) => {
         <Toolbar>
           <Typography sx={{ flexGrow: 1 }}>Today is the {format(new Date(), 'd MMMM Y')}</Typography>
           <Typography>const</Typography>
-
+          <Avatar alt="Groot" src="/groot.jpg" sx={{ ml: 2 }} />
         </Toolbar>
       </AppBar>
 
